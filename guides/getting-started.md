@@ -122,6 +122,14 @@ $ mkdir sparkleformation/components
 $ mkdir sparkleformation/dynamics
 ~~~
 
+Alternatively, you can generate the correct structure automatically:
+
+~~~
+$ bundle exec sfn init --defaults .
+~~~
+
+Simply follow the prompts to create the correct structure.
+
 ## Create a template
 
 Lets start by creating a full template. This template will create a compute resource
